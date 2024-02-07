@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+  char alph;
+  printf("Enter the value of the alphabets: ");
+  scanf("%c", &alph);
+  printf("The ASCII value of the alphabet %c is %d", alph, alph);
+  return 0;
+}
