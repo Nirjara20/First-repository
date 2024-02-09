@@ -1,0 +1,11 @@
+// I learned how to find the area of the circle.
+#include<stdio.h>
+int main(){
+  #define PI 3.141593
+  float Area, R;
+  printf("Enter the value of the radius: ");
+  scanf("%f", &R);
+  Area = PI * R * R;
+  printf("The area of the circle is %f.", Area);
+  return 0;
+}
